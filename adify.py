@@ -3,13 +3,13 @@ import streamlit as st
 import os 
 import openai
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # from apikey import apikey
 from PIL import Image
 
-load_dotenv(".env")
-os.environ['OPENAI_API_KEY'] = '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'
-openai.api_key = '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'
+# load_dotenv(".env")
+# os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key = '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'
 
 st.title('🦜 Adify App 🦜')
 
