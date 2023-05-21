@@ -4,12 +4,12 @@ import os
 import openai
 import os
 from dotenv import load_dotenv
-from apikey import apikey
+# from apikey import apikey
 from PIL import Image
 
 load_dotenv(".env")
-os.environ['OPENAI_API_KEY'] = apikey
-openai.api_key = apikey
+os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key = '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'
 
 st.title('🦜 Adify App 🦜')
 
