@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 from PIL import Image
 
 load_dotenv(".env")
-os.environ['OPENAI_API_KEY'] = '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'
-openai.api_key = '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'
+os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key = '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'
 
 st.title('🦜 Adify App 🦜')
 
