@@ -9,7 +9,7 @@ from PIL import Image
 
 # load_dotenv(".env")
 # os.environ['OPENAI_API_KEY'] = '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'
-openai.api_key = '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'
+openai.api_key = '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'
 
 st.title('🦜 Adify App 🦜')
 
